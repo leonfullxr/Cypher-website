@@ -8,9 +8,12 @@ import type React from "react" // Import React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cypher - E2E Encrypted Chat",
-  description: "Secure, anonymous, and encrypted chat application",
-}
+    title: "Cypher - E2E Encrypted Chat",
+    description: "Secure, anonymous, and encrypted chat application",
+    icons: {
+      icon: "https://res.cloudinary.com/du0ukbkvu/image/upload/v1738328798/Cypher-file/pmh6mtflhjnthpjmr70d.png",
+    },
+}  
 
 export default function RootLayout({
   children,
